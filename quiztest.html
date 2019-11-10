@@ -5,15 +5,23 @@
 		<script src="quiztest.js"></script>
 	</head>
 	<body>
-		<form action="#">
-			<input type="button" id="pump" value="INCREASE!"> <br/>
-			<input type="button" id="deflate" value="DECREASE!">
-		</form>
+		This is a prototype of how our quizzes will function.  The quiz will rotate through a set of questions until the user fills the bar 100%.  All questions assume Python.
 		<br/>
 		<div id="quizProgress">
 			<div id="progressBar"></div>
 		</div>
+		<section id="question">
+			<form action="#">
+				<input type="button" id="beginquiz" value="Begin Quiz">
+			</form>
+		</section>
 		<br/>
-		debug info: <section id="percent"></section>%
+		debug:
+		<section id="percent">0%</section>
+		<section id="score">0/0</section>
+		<form action="#">
+			<input type="button" id="pump" value="INCREASE!"> <br/>
+			<input type="button" id="deflate" value="DECREASE!">
+		</form>
 	</body>
 </html>
