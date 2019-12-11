@@ -1,0 +1,35 @@
+<!-- Graphical Interface Design for CS 458 Group Project (Rough Draft)
+Initial Design by Mitch Duty -->
+
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+		<!-- Create title to appear in page's tab. -->
+		<title> Login Page </title>
+		
+		<!-- Link to our CSS stylesheet for easy styling -->
+		<link rel="stylesheet" type="text/css" href="GUI_Stylesheet.css">
+	</head>
+	
+	<body>
+		<fieldset id="title_field">
+			<h2> Welcome! </h2>
+			<h3> Please enter your user identification and password. </h3>
+			<form action="login.php" method="post">
+				<fieldset id="login_field">
+					<legend>Log In</legend>
+					<label for="user_id"> User ID </label><br>
+					<input type="text" name="user_id" length="15"/><br><br>
+					<label for="user_pw"> Password </label><br>
+					<input type="password" name="user_pw" length="32"/><br><br>
+					<input type="submit" name="user_submit" value="Log In" /><br><br>
+					<a href="InstructorLogin.html"> I am an instructor. </a><br>
+				</fieldset>
+			</form>
+		</fieldset>
+	</body>
+	
+</html>
+	

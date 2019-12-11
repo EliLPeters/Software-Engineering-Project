@@ -1,0 +1,65 @@
+
+#main_field
+{
+	background-color: tan;
+	margin-top: 4%;
+	margin-left: 12%;
+	margin-right: 12%;
+	padding: 2%;
+}
+
+body
+{
+	background-color: black;
+}
+
+#player_field
+{
+	background-color: gray;
+	float: left;
+	width: 18%;
+}
+
+#phase_field
+{	
+	float: right;
+	width: 72%;
+}
+
+#title_field
+{
+	background-color: tan;
+	margin-top: 4%;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 2%;
+	text-align: center;
+}
+
+#login_field, #logout_field, #score_field, #tutorial_field, #credits_field
+{
+	background-color: gray;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 2%;
+	text-align: center;
+}
+
+#quizProgress
+{
+	width: 100%;
+	background-color: gray;
+}
+ 
+#progressBar
+{
+	width: 0%;
+	height: 30px;
+	background-color: green;
+}
+
+#tr
+{
+	border-style: solid;
+	text-align: center;
+}
