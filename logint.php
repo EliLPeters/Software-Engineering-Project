@@ -26,12 +26,12 @@
 				$_SESSION['user_id'] = strip_tags($_POST['user_id']);
 			
 				echo 'Login Successful!';
-				echo '<script type="text/javascript">window.location.replace("QuizInterface.php")</script>';
+				echo '<script type="text/javascript">window.location.replace("InstructorScorePage.php")</script>';
 			}
 			else
 			{
 				echo 'Username and/or password incorrect!';
-				echo '<script type="text/javascript">window.location.replace("StudentLogin.html")</script>';
+				echo '<script type="text/javascript">window.location.replace("InstructorLogin.html")</script>';
 			}
 
 			oci_close($conn);
