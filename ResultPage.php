@@ -22,7 +22,7 @@ Initial Design by Mitch Duty -->
                                        (PORT = 1521))
                             (CONNECT_DATA = (SID = STUDENT)))";
 							
-			$conn = oci_connect('mad949', 'Infinit3', $db_conn_str);
+			$conn = oci_connect('', '', $db_conn_str); // USERNAME AND PASSWORD REQUIRED
 			
 			$cmd =
 			'INSERT INTO Student_Scores

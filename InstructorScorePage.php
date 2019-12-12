@@ -18,9 +18,9 @@ Initial Design by Mitch Duty -->
 				<legend>Log In</legend>
 				<h3> Welcome, <?php echo $_SESSION["user_id"] ?>! </h3>
 				
-				<?php $username = "mad949";
+				<?php $username = ""; // USERNAME REQUIRED
 
-        $password = "Infinit3";
+        $password = ""; // PASSWORD REQUIRED
 
 		// Connection info. Still not totally clear on this, but In Sharon We Trust, I guess.
         $db_conn_str =
