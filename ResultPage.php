@@ -54,7 +54,7 @@ Initial Design by Mitch Duty -->
 						<h4> Do you wish to continue? </h4><br>
 						<input type="submit" name="continue_button" value="Continue" />
 						<input type="button" name="logout_button" value="Log Out" 
-						onclick="window.location.href = 'LogoutPage.html'" />
+						onclick="window.location.href = 'LogoutPage.php'" />
 				</fieldset>
 			</fieldset>
 		</fieldset>
