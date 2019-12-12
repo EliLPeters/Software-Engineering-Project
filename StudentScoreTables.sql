@@ -43,7 +43,7 @@ FOREIGN KEY (teacher_id) REFERENCES project_users(user_id)
         'password');
 		
 INSERT INTO students
-VALUES('teststudent', 'testteacher', 1).
+VALUES('teststudent', 'testteacher', 1);
  
  CREATE SEQUENCE score_seq
     MINVALUE 0
