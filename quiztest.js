@@ -33,25 +33,25 @@ function initializeQuestions()
 		["How would you indicate that variable X is an integer?<br/>______ X", ["opt0", "opt1", "opt2", "opt3"], ["int", "integer", "var", "(blank)"], 3],
 		["What datatype is a number with a decimal?", ["opt0", "opt1", "opt2", "opt3"], ["double", "decimal", "float", "dec"], 2],
 		["How do you evaluate whether two variables X and Y have equivalent values?", ["opt0", "opt1", "opt2", "opt3"], ["X=Y", "X+=Y", "X==Y", "X=:=Y"], 2],
-		["Data types for variables in Python can be changed during runtime due to its _____ nature.", ["opt0", "opt1", "opt2", "opt3"],  ["dynamic", "static", "robust", "portable"], 0]
-	/*["Which one of these is a function?", ["opt0", "opt1", "opt2", "opt3"], ["Cook", "cook", "cook()", "\#cook"], 2],
+		["Data types for variables in Python can be changed during runtime due to its _____ nature.", ["opt0", "opt1", "opt2", "opt3"],  ["dynamic", "static", "robust", "portable"], 0],
+	["Which one of these is a function?", ["opt0", "opt1", "opt2", "opt3"], ["Cook", "cook", "cook()", "#cook"], 2],
 	["Classes are always _______", ["opt0", "opt1", "opt2", "opt3"], ["camelCase", "capitalized", "snake_case", "primary_key"], 1],
 	["5 % 2 = ____", ["opt0", "opt1", "opt2", "opt3"], ["2", "3", "2.5", "1"], 3],
 	["Python gets its name from _______", ["opt0", "opt1", "opt2", "opt3"], ["Snakes", "Monty", "Colt", "Anaconda"], 1],
 	["Which dynamic data structure requires both a key and a value?", ["opt0", "opt1", "opt2", "opt3"], ["dictionary", "list", "tuple", "lambda"], 0],
 	["If a = 5 and b = 2, what is the output of print(a+b)?", ["opt0", "opt1", "opt2", "opt3"], ["10", "11", "25", "7"], 3],
 	["If a = \"5\" and b = \"2\", what is the output of print(a+b)?", ["opt0", "opt1", "opt2", "opt3"], ["10", "11", "25", "7"], 2],
-	["Which operator prints a list in reverse order?", ["opt0", "opt1", "opt2", "opt3"], ["y=x\[:\]", "x=\[y:\]", "\[x:y\]", "y=x\[previous\]"], 0],
-	["Remove an element at position y from list x by entering _______.", ["opt0", "opt1", "opt2", "opt3"], ["x.del\[y\]", "x\[y:z\]", "x.clear\[y\]", "del x\[y\]"], 3],
+	["Which operator prints a list in reverse order?", ["opt0", "opt1", "opt2", "opt3"], ["y=x[:]", "x=[y:]", "[x:y]", "y=x[previous]"], 0],
+	["Remove an element at position y from list x by entering _______.", ["opt0", "opt1", "opt2", "opt3"], ["x.del[y]", "x[y:z]", "x.clear[y]", "del x[y]"], 3],
 	["Which of the following is not a mutable built-in type?", ["opt0", "opt1", "opt2", "opt3"], ["set", "matrix", "dictionary", "list"], 1],
 	["Which of the following is an immutable built-in type?", ["opt0", "opt1", "opt2", "opt3"], ["Idle", "set", "tuple", "list"], 2],
 	["_____ is a means of selecting a range of items from the same sequence type.", ["opt0", "opt1", "opt2", "opt3"], ["slicing", "dicing", "parsing", "splitting"], 0],
 	["_____ is a means of converting a string into multiple characters.", ["opt0", "opt1", "opt2", "opt3"], ["slicing", "dicing", "parsing", "splitting"], 3],
-	["What is the proper syntax for executing the random\(\) function?", ["opt0", "opt1", "opt2", "opt3"], ["rand\(\)", "rand.random\(\)", "random.rand\(\)", "import.random\(\)"], 1],
+	["What is the proper syntax for executing the random() function?", ["opt0", "opt1", "opt2", "opt3"], ["rand()", "rand.random()", "random.rand()", "import.random()"], 1],
 	["What type of language is Python?", ["opt0", "opt1", "opt2", "opt3"], ["procedural", "object-oriented", "functional", "logical"], 1],
 	["At times, Python can be converted to a procedural language", ["opt0", "opt1"], ["True", "False"], 1],
-	["_____ returns a strings contents in reverse.", ["opt0", "opt1", "opt2", "opt3"], ["string\[\:\:-1\]", "\[\:\:-1\]string", "string\[x:y\]", "switch\[x:y\]"], 0],
-	["What is the proper way to declare values into a dictionary?", ["opt0", "opt1", "opt2", "opt3"], ["\[\"one\":1\]=x", "x=\{1:\"one\"\}", "\{"one"\:1\}", "x=\[1\:"one"\]"], 1]*/
+	["_____ returns a strings contents in reverse.", ["opt0", "opt1", "opt2", "opt3"], ["string[::-1]", "[::-1]string", "string[x:y]", "switch[x:y]"], 0],
+	["What is the proper way to declare values into a dictionary?", ["opt0", "opt1", "opt2", "opt3"], ["[\"one\":1\]=x", "x=\{1:\"one\"\}", "\{\"one\"\:1\}", "x=\[1\:\"one\"\]"], 1]
 	];
 }
 
