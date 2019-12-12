@@ -31,7 +31,7 @@ Initial Design by Mitch Duty -->
 						<fieldset id="options_field">
 							<legend> Options </legend>
 								<input type="button" name="logout_button" value="Log Out" 
-								onclick="window.location.href = 'LogoutPage.html'" />
+								onclick="window.location.href = 'LogoutPage.php'" />
 						</fieldset>
 					</form>
 					<br>
