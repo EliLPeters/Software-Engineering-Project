@@ -6,6 +6,9 @@
 -- a fuller table, but demonstrating that the application functions properly.
 
 insert into project_users values(
+	'otherteacher', '12345');
+
+insert into project_users values(
 	'HotSauce99', 'inferno');
 
 insert into project_users values(
